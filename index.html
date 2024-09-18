@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>PARADOXO DE EPICURO</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>O MAL EXISTE?</p>
+            <button class="btn-proximo" data-proximo="1">SIM</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>DEUS SABE QUE O MAL EXISTE?</p>
+            <button class="btn-proximo" data-proximo="2">SIM</button>
+            <button class="btn-proximo" data-proximo="5">NÃO</button>
+        </div>
+      
+        <div class="passo" id="passo-2">
+            <p>DEUS PODE ACABAR COM O MAL?</p>
+            <button class="btn-proximo" data-proximo="3">SIM</button>
+            <button class="btn-proximo" data-proximo="4">NÃO</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>ENTÃO, ELE NÃO É ONIPOTENTE</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>ENTÃO, ELE NÃO É ONISCIENTE</p>
+        </div>
+
+
+        <div class="passo" id="passo-3">
+            <p>DEUS QUER ACABAR COM O MAL?</p>
+            <button class="btn-proximo" data-proximo="6">SIM</button>
+            <button class="btn-proximo" data-proximo="7">NÃO</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>ENTÃO, ELE NÃO É BOM</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>ENTÃO POR QUE O MAL EXISTE?</p>
+            <button class="btn-proximo" data-proximo="8">LIVRE ARBÍTRIO</button>
+            <button class="btn-proximo" data-proximo="9">SATÃ</button>
+            <button class="btn-proximo" data-proximo="10">PARA NOS TESTAR</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+             <p>DEUS PODIA TER CRIADO UM UNIVERSO COM LIVRE ARBÍTRIO E SEM O MAL?</p>
+             <button class="btn-proximo" data-proximo="11">SIM</button>
+             <button class="btn-proximo" data-proximo="12">NÃO</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>ENTÃO, ELE NÃO É BOM</p>
+       </div>
+
+       <div class="passo" id="passo-12">
+        <p>ENTÃO, ELE NÃO É ONIPOTENTE</p>
+   </div>
+
+   <div class="passo" id="passo-9">
+    <p>SE ELE É ONIPOTENTE E BONDOSO, TERIA DESTRUÍDO SATÃ</p>
+</div>
+
+<div class="passo" id="passo-10">
+    <p>SE ELE É ONISCIENTE, JÁ SABE O RESULTADO E NÃO PRECISA NOS TESTAR</p>
+</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
